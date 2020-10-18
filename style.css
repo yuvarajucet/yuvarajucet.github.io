@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Finger+Paint&family=Monoton&family=Rye&display=swap");
+body
+{
+  margin:0;
+  padding:0;
+  background-color: #000;
+}
+.img
+{
+  border-radius: 50%;
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: block;
+}
+.bgimg
+{
+  height: 100vh;
+  z-index: -5;
+
+}
+h1
+{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:rgb(15, 255, 7);
+  font-family:'Rye', cursive;
+  text-align: center;
+}
+h3
+{
+  position: absolute;
+  top:65%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: #067902;
+  text-align: center;
+  font-family:  'Bungee Shade', cursive;
+}
+.links
+{
+  position: absolute;
+  top:650px;
+  width:100%;
+  text-align: center;
+}
+.btn
+{
+  display:inline-block;
+  width:90px;
+  height: 90px;
+  background:#fff;
+  margin:10px;
+  border-radius:30%;
+  box-shadow: 5px 5px 15px -5px #000;
+}
+.btn i
+{
+  line-height: 90px;
+  font-size:30px;
+  transition: 0.5s linear;
+}
+a:nth-child(1)
+{
+  color:#3b5998;
+}
+a:nth-child(2)
+{
+  color: #1da1f2;
+}
+a:nth-child(3)
+{
+  color:#000;
+}
+a:nth-child(4)
+{
+  background-image: url('insta.ico');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:30px;
+  color:transparent;
+}
+a:nth-child(5)
+{
+  color:#c4302b;
+}
+.btn:hover i
+{
+  transform: scale(1.2);
+}
+.face:hover
+{
+  background:#3b5998;
+  color:#fff;
+  transition: 0.5s linear;
+}
+.twitter:hover
+{
+  background: #1da1f2;
+  color:#fff;
+  transition: 0.5s linear;
+}
+.git:hover
+{
+  background:#000;
+  color:#fff;
+  transition: 0.5s linear;
+}
+.insta:hover
+{
+  background-size: 35px;
+  transition: 0.5s linear;
+}
+.utube:hover
+{
+  background:#c4302b;
+  color:#fff;
+  transition: 0.5s linear;
+}
