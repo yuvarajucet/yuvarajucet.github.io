@@ -120,3 +120,34 @@ a:nth-child(5)
   color:#fff;
   transition: 0.5s linear;
 }
+
+@media only screen and (max-width:524px)
+{
+  .img
+  {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+  }
+  h1
+  {
+    font-size:20px;
+  }
+  .links
+    {
+      position: absolute;
+      top:650px;
+      width:100%;
+      text-align: center;
+    }
+  .btn
+    {
+      display:inline-block;
+      width:90px;
+      height: 90px;
+      background:#fff;
+      margin:10px;
+      border-radius:30%;
+      box-shadow: 5px 5px 15px -5px #000;
+    }
+}
